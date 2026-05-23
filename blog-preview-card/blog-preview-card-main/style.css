@@ -41,13 +41,36 @@ main {
     border-radius: 10px;
     margin-bottom: 25px;
 }
+.avatar {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    gap: 10px;      
+}
+
+.avatar > p {
+    color: var(--darkgray);
+    font-weight: 800;
+}
+
+.avatar > img {
+    width: 10%;
+}
 
 span {
     background-color: var(--yellow);
+    color: var(--darkgray);
     border-radius: 4px;
     font-weight: 800;
-    padding: 5px;
-    display: inline;
+    padding: 8px;
+    display: inline-block;
+}
+
+.time > p {
+    color: var(--darkgray);
+    font-size: 15px;
+    font-weight: 500;
+
 }
 
 h1 {
@@ -55,15 +78,18 @@ h1 {
     font-weight: 800;
     color: var(--yellow);
     
-    
 }
 
 p {
+    color: var(--gray);
     font-size: 15px;
     font-weight: 500;
-    padding: 20px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
 }
 
+footer {
+    
+}
 
 
 
