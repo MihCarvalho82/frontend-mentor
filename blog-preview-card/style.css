@@ -14,12 +14,15 @@
 }
 
 body {
-    font-family: Figtree;
+    font-family: 'Figtree', sans-serif;
     background-color: var(--yellow); 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
-    min-height: 100vh;
+    flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +34,7 @@ main {
     padding: 16px;
     border-radius: 20px;
     border: 1px solid var(--darkgray);
-    max-width: 320px; 
+    max-width: 375px; 
     width: 100%;
     box-shadow: 8px 8px 0px 0px var(--darkgray)
 }
@@ -39,7 +42,7 @@ main {
 .card img {
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 25px;
+    
 }
 .avatar {
     display: flex;
@@ -51,6 +54,7 @@ main {
 .avatar > p {
     color: var(--darkgray);
     font-weight: 800;
+    
 }
 
 .avatar > img {
@@ -62,13 +66,14 @@ span {
     color: var(--darkgray);
     border-radius: 4px;
     font-weight: 800;
+    margin-top: 20px;
     padding: 8px;
     display: inline-block;
 }
 
 .time > p {
     color: var(--darkgray);
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
 
 }
@@ -76,8 +81,12 @@ span {
 h1 {
     font-size: 22px;
     font-weight: 800;
+    color: var(--darkgray);
+}
+
+h1:hover {
+    cursor: pointer;
     color: var(--yellow);
-    
 }
 
 p {
@@ -88,8 +97,29 @@ p {
 }
 
 footer {
-    
+  text-align: center;
 }
+
+ footer a {
+    text-decoration: none; 
+    color: var(--darkgray); 
+    font-weight: 800;
+}
+
+footer a:visited {
+    color: var(--gray); 
+}
+
+footer a:hover {
+    color: var(--white); 
+}
+
+
+footer a:active {
+    color: var(--white); 
+}
+
+
 
 
 
