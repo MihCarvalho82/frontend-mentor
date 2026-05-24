@@ -33,7 +33,7 @@ main {
     background-color: var(--white);
     padding: 16px;
     border-radius: 20px;
-    border: 1px solid var(--darkgray);
+    border: 2px solid var(--darkgray);
     max-width: 375px; 
     width: 100%;
     box-shadow: 8px 8px 0px 0px var(--darkgray)
@@ -67,7 +67,7 @@ span {
     border-radius: 4px;
     font-weight: 800;
     margin-top: 20px;
-    padding: 8px;
+    padding: 4px 12px;
     display: inline-block;
 }
 
@@ -91,7 +91,7 @@ h1:hover {
 
 p {
     color: var(--gray);
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
     margin: 20px 0px 20px 0px;
 }
