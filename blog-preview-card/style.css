@@ -40,8 +40,9 @@ main {
 }
 
 .card img {
-    width:95%;
+    width:100%;
     border-radius: 10px;
+    margin: 10px;
     
 }
 .avatar {
